@@ -2,10 +2,12 @@ Supports MP4, MKV, MOV, AVI, WMV, FLV, WEBM, M4V
 
 Choose merge order by filename or modification time
 
-Run:
+Run:  
+
 python vid.py
 
-Then:
+Then:  
+
 Enter the absolute path of the video folder.  
 
 Review the video information and resolution statistics.  
