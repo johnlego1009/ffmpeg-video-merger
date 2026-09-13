@@ -8,11 +8,7 @@ from fractions import Fraction
 # 固定設定
 # ==========================================
 
-DOWNLOADS_FOLDER = r"C:\Users\johnl\Downloads"
-OUTPUT_FILE_PATH = os.path.join(
-    DOWNLOADS_FOLDER,
-    "output.mp4"
-)
+OUTPUT_FILENAME = "output.mp4"
 
 # 支援的影片副檔名
 VIDEO_EXTS = (
@@ -332,7 +328,12 @@ def main():
         )
 
         return
-
+        
+    OUTPUT_FILE_PATH = os.path.join(
+        source_folder,
+        OUTPUT_FILENAME
+    )
+    
     # --------------------------------------
     # 2. 切換來源資料夾
     # --------------------------------------
