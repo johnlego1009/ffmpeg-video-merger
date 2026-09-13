@@ -1,4 +1,5 @@
-Supports MP4, MKV, MOV, AVI, WMV, FLV, WEBM, M4V
+Supports MP4, MKV, MOV, AVI, WMV, FLV, WEBM, M4V  
+
 Choose merge order by filename or modification time
 
 Run:
